@@ -18,8 +18,8 @@ function CallbackContent() {
       localStorage.setItem("deriv_token", token1);
       localStorage.setItem("deriv_account", acct1);
       
-      // Redirect to home
-      router.push("/");
+      // Redirect to dashboard
+      router.push("/dashboard");
     } else {
       // Handle error
       console.error("No token found");
